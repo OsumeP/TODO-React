@@ -1,0 +1,55 @@
+@font-face{
+    font-family: "Noto-sans";
+    src: url(../fonts/NotoSans-VariableFont_wdth\,wght.ttf);
+}
+.todo_item{
+    font-size: 1rem;
+    background-color: rgb(184, 184, 184);
+    display: flex;
+    justify-content:space-around;
+    width: 90%;
+    margin: 15px 0;
+    border-radius: 10px;
+    height: auto;
+    align-items: center;
+    position: relative;
+    font-family: "Noto-sans";
+}
+
+.item_action{
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    min-width: 30px;
+    min-height: 30px;
+    margin: 0 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(184, 184, 184);
+}
+
+.item_action--completed{
+    background-color: rgb(159, 212, 174);
+    color: white;;
+}
+
+.item_action--delete{
+    position: absolute;
+    top: -15px;
+    right: -25px;
+}
+
+.item_description{
+    width: 80%;
+}
+
+.item_description--completed{
+    text-decoration: line-through;
+}
+
+.item_action:hover{
+    background-color: rgb(97, 96, 96);
+    color: white;
+}

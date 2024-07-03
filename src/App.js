@@ -4,7 +4,7 @@ import { TodoList } from './TodoList';
 import { TodoItem } from './TodoItem';
 import { CreateTodoBtn } from './CreateTodoBtn'; 
 
-const toDoArr = [{task: "Jugar Serial Experiments Lain PSX", completed: false},
+const toDoArr = [{task: "Jugar Serial Experiments Lain PSX \n\n\n", completed: false},
   {task: "Tocar batería", completed: true},
   {task: "Platinar cuphead", completed: true},
   {task: "Comprar PS Plus", completed: false},

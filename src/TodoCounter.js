@@ -6,7 +6,7 @@ function TodoCounter(props){
         textAlign:  'center',
         margin: '0px',
         padding: '48px',
-      }}> Has completado {props.completed} de {props.total} TODOs</h1>
+      }}> Has platinado {props.completed} de {props.total} juegos.</h1>
     );
   }
 
