@@ -1,0 +1,24 @@
+.main_img{
+    width: 90%;
+    max-width: 400px;
+}
+
+.todo{
+    display: grid;
+    justify-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+
+@media (min-width: 700px){
+    .counter_todo{
+        display: none;
+    }
+    .todo{
+        width: 50%;
+    }
+    .main_img{
+        width: 50%;
+    }
+}

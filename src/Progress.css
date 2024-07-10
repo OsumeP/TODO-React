@@ -1,0 +1,37 @@
+.progress{
+    display: none;
+    background-color: rgb(184, 184, 184);
+    position: relative;
+    padding: 0 0 5%;
+    height: 95vh;
+    border-radius: 10px;
+    border: 2px solid rgb(97, 96, 96);
+}
+
+.counter_progress{
+  position: absolute;
+  font-size: 21px;
+}
+
+.sit_progress{
+    position: relative;
+    width: 20%;
+    min-width: 100px;
+    max-width: 150px;
+    top: 40%;
+    z-index: 2;
+  }
+@media (min-width: 700px){
+    .progress{
+      display: block;
+      width: 45%;
+      display: grid;
+      justify-items: center;
+      align-content: center;
+    }
+  }
+  @media (min-width: 1000px){
+    .counter_progress{
+      font-size: 2rem;
+    }
+  }

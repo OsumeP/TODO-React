@@ -5,4 +5,13 @@
 
 body{
   font-family: "Noto-sans";
+  background-color: rgb(231, 231, 231);
 }
+
+.root{
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+

@@ -1,6 +1,9 @@
+import './CreateTodoBtn.css';
 function CreateTodoBtn(){
     return(
-        <button>+</button>
+        <button>
+            <img src="./agregar-icono.png"  alt='Agregar'></img>
+        </button>
     )
 }
 
