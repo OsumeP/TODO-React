@@ -1,6 +1,6 @@
 .progress{
     display: none;
-    background-color: rgb(184, 184, 184);
+    background-color: rgb(175, 175, 175);
     position: relative;
     padding: 0 0 5%;
     height: 95vh;
@@ -21,6 +21,18 @@
     top: 40%;
     z-index: 2;
   }
+
+.celebration{
+  position: absolute;
+  bottom: 3px;
+  width: 106px;
+}
+.celebration--1{
+  right: 2px;
+}
+.celebration--2{
+  left: 2px;
+}
 @media (min-width: 700px){
     .progress{
       display: block;

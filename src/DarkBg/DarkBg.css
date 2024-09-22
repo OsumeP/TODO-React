@@ -1,0 +1,9 @@
+.dark_div{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(56, 56, 56, 0.534);
+    z-index: 2;
+}
