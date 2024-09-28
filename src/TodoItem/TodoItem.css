@@ -15,7 +15,7 @@
     align-items: center;
     position: relative;
     font-family: "Noto-sans";
-    word-break: break-all;
+    word-break: break-word;
 }
 
 .todo_item:hover{
