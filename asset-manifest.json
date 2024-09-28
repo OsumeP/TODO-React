@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/TODO-React/static/css/main.2be66f1a.css",
-    "main.js": "/TODO-React/static/js/main.e57af052.js",
+    "main.js": "/TODO-React/static/js/main.4fa9d261.js",
     "static/media/NotoSans-VariableFont_wdth,wght.ttf": "/TODO-React/static/media/NotoSans-VariableFont_wdth,wght.b1d0ab70303caea663db.ttf",
     "static/media/check.svg": "/TODO-React/static/media/check.0fc93ecc6074a6be551b893348f1dbb5.svg",
     "static/media/cross.svg": "/TODO-React/static/media/cross.e841156a6e282c1d09ed43d35fbca049.svg",
     "index.html": "/TODO-React/index.html",
     "main.2be66f1a.css.map": "/TODO-React/static/css/main.2be66f1a.css.map",
-    "main.e57af052.js.map": "/TODO-React/static/js/main.e57af052.js.map"
+    "main.4fa9d261.js.map": "/TODO-React/static/js/main.4fa9d261.js.map"
   },
   "entrypoints": [
     "static/css/main.2be66f1a.css",
-    "static/js/main.e57af052.js"
+    "static/js/main.4fa9d261.js"
   ]
 }
